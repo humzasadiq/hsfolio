@@ -1,6 +1,6 @@
 import ToggleTheme from "./ToggleTheme";
 import { Link } from "react-router-dom";
-import { useState, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { AppContext } from "../App";
 import { HiOutlineBars3BottomLeft } from "react-icons/hi2";
 
@@ -65,6 +65,14 @@ export default function Navbar() {
       {/* Sidebar */}
       <div
         id="hs-offcanvas-example"
+        data-hs-carousel='{
+          "loadingClasses": "opacity-0",
+          "dotsItemClasses": "hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500"
+          "isAutoplay": true,
+          "isCentered": true,
+          isDraggable: true,
+          "isInfiniteLoop": true,
+        }'
         className={`hs-overlay [--auto-close:lg] transition-all duration-300 transform fixed top-0 start-0 bottom-0 z-[60] w-64 bg-white border-e border-gray-200 pt-7 pb-10 overflow-y-auto lg:hidden [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 dark:bg-black dark:border-neutral-700 ${
             opened ? "translate-x-0 opacity-100 pointer-events-auto" : "-translate-x-full opacity-0 pointer-events-none"
         }`}
