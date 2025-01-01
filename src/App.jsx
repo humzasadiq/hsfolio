@@ -5,6 +5,7 @@ import Gallery from './pages/Gallery';
 import Navbar from './components/Navbar';
 import PageNotFound from './pages/404';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'preline/preline';
 
 export const AppContext = createContext();
 

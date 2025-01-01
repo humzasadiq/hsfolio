@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className="transparent h-[8vh] fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center px-6 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-50 dark:border-black bg-zinc-50/70 dark:bg-zinc-950/70 backdrop-blur">
-        <div className="heading text-[14px] flex gap-4 mx-auto text-black dark:text-zinc-100 sm:hidden lg:flex underline decoration-dotted">
+        <div className="heading text-[14px] flex gap-4 mx-auto text-black dark:text-zinc-100 hidden lg:flex underline decoration-dotted">
           <Link
             to="/"
             className="transition-all duration-300 hover:decoration-solid"

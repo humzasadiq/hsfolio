@@ -14,8 +14,8 @@ export default function Hero() {
                 <div className="flex gap-2 align-center flex-wrap md:flex-nowrap">
                 <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
                     <h2 className="text-xl">{user_info.main.role}</h2>
-                    <h1 className="heading font-black mt-3 text-5xl lg:w-[85%]">
-                    {user_info.main.name}
+                    <h1 className="heading font-black mt-3 text-3xl md:text-4xl lg:text-5xl w-full lg:w-[85%]">
+                        {user_info.main.name}
                     </h1>
 
                     <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
