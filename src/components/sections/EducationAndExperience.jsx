@@ -63,7 +63,7 @@ function EducationAndExperience() {
                     {cert.icon === "meta" ? (
                       <FaMeta className="text-blue-500 absolute right-5 top-0 text-5xl" />
                     ) : cert.icon === "fso" ? (
-                      <img src="/helsinki.webp" className="absolute right-5 top-0 w-[150px] dark:invert" alt="" />
+                      <img src="/helsinki.webp" className="absolute right-5 top-0 w-[150px] dark:invert" />
                     )
                     : null
                     }
