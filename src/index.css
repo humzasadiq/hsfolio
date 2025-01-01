@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Against;
+    src: url("/fonts/against regular.ttf");
+}
+
+
+:root {
+    font-family: "Consolas";
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+.heading {
+    font-family: "Against", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Global transitions */
+body.enable-transitions {
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.enable-transitions * {
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8364D8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3C3C3C;
+}
+
+::selection {
+    background: #8364D8;
+    color: #fff;
+}
