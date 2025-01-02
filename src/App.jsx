@@ -1,46 +1,43 @@
-import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useEffect, useState } from 'react';
 import { createContext } from 'react';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Navbar from './components/Navbar';
-import PageNotFound from './pages/404';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import 'preline/preline';
+import NotFound from './pages/404'
+import "preline/preline";
 
 export const AppContext = createContext();
 
 function App() {
-  const savedTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(savedTheme || "dark");
+	const savedTheme = localStorage.getItem("theme");
+    const [theme, setTheme] = useState(savedTheme || "dark");
 
-  useEffect(() => {
-      document.documentElement.classList.toggle("dark", theme === "dark");
-      localStorage.setItem("theme", theme);
-      setTimeout(() => {
-        document.documentElement.classList.add("enable-transitions");
-      }, 0);
-  }, [theme]);
+	useEffect(() => {
+        document.documentElement.classList.toggle("dark", theme === "dark");
 
-  const switchTheme = () => {
-      setTheme(theme === "dark" ? "light" : "dark");
-  };
-  
-  return (
-      <AppContext.Provider value={{ theme, switchTheme }}>
+        localStorage.setItem("theme", theme);
+    }, [theme]);
+
+	const switchTheme = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+    };
+
+	return (
+		<AppContext.Provider value={{ theme, switchTheme }}>
         <BrowserRouter>
         <div className="bg-zinc-100 dark:bg-zinc-900">
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="*" element={<PageNotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         </BrowserRouter>
         
       </AppContext.Provider>
-  )
+	)
 }
 
-export default App;
+export default App
