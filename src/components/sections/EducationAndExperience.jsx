@@ -63,7 +63,11 @@ function EducationAndExperience() {
           Certificates
         </h4>
         <div
-          data-hs-carousel='{"loadingClasses": "opacity-0"}'
+          data-hs-carousel='{
+          "loadingClasses": "opacity-0",
+          "isDraggable": true,
+          "isAutoPlay": true
+          }'
           className="relative mt-4"
         >
           <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
