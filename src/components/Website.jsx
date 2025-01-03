@@ -10,7 +10,7 @@ const Website = ({ url, opened, setOpened }) => {
       onClick={() => setOpened(false)}
     >
     <div
-    className="text-[30px] text-black dark:text-white cursor-pointer absolute top-4 left-6 bg-white dark:bg-zinc-800 rounded-lg"
+    className="text-[30px] text-black dark:text-white cursor-pointer absolute top-4 left-6 bg-white dark:bg-zinc-800 rounded-lg z-1000"
     onClick={() => setOpened(false)}
     >
     <IoMdArrowBack />
