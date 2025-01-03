@@ -26,7 +26,7 @@ const Website = ({ url, opened, setOpened }) => {
             loading="lazy"
             title="Custom Title"
             className="rounded-lg"
-            style={{ zoom: 0.75 }}
+            style={{ zoom: 0.85 }}
           />
         </div>
       </div>
