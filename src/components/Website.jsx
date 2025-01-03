@@ -21,7 +21,7 @@ const Website = ({ url, opened, setOpened }) => {
           <iframe
             src={url}
             width="100%"
-            height="90%"
+            height="100%"
             sandbox="allow-scripts allow-forms"
             loading="lazy"
             title="Custom Title"
