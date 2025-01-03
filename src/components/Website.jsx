@@ -17,7 +17,7 @@ const Website = ({ url, opened, setOpened }) => {
     </div>
 
       <div className="flex justify-center items-center h-full p-4">
-        <div className="bg-white dark:bg-zinc-800 p-4 rounded-lg shadow-lg w-full max-w-4xl h-[80vh]">
+        <div className="bg-white dark:bg-zinc-800 p-4 rounded-lg shadow-lg w-full max-w-4xl h-[90vh]">
           <iframe
             src={url}
             width="100%"
@@ -26,7 +26,6 @@ const Website = ({ url, opened, setOpened }) => {
             loading="lazy"
             title="Custom Title"
             className="rounded-lg"
-            style={{ zoom: 0.85 }}
           />
         </div>
       </div>
