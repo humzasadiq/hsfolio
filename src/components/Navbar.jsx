@@ -63,7 +63,7 @@ export default function Navbar() {
         >
         <nav className="heading-myfont hs-accordion-group p-6 w-full flex flex-col flex-wrap justify-center items-center h-full bg-zinc-50 dark:bg-zinc-950">
             <div 
-            className="text-[30px] text-black dark:text-white cursor-pointer absolute top-2 left-6"
+            className="text-[30px] text-black dark:text-white cursor-pointer absolute top-4 left-6"
             onClick={() => setOpened(false)}
             >
                 <IoMdArrowBack/>

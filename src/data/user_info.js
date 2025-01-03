@@ -19,7 +19,27 @@ const info = {
 
     // ============ PROJECTS ============
     projects: [
-        
+        {
+			title: "PcPartPicker",
+			description: " A full stack web application for building custom pc builds. [group project]",
+            technologies: "React,Three.js,Express,MongoDB",
+			github: "https://github.com/humzasadiq/RealTime-GooglePixelWatch",
+            link: "https://gogol-watchstore.vercel.app/"
+		},
+        {
+			title: "gogol",
+			description: "A Real-time Watch store.",
+            technologies: "React,Three.js,CSS3",
+			github: "https://github.com/humzasadiq/RealTime-GooglePixelWatch",
+            link: "https://gogol-watchstore.vercel.app/"
+		},
+        {
+			title: "Careerhub",
+			description: "A Job search engine that aggregates job listings from multiple platforms. ",
+            technologies: "React,Tailwind,Express,CSS3",
+			github: "https://github.com/humzasadiq/CareerHub-JobSearchEngine",
+            link: "https://careerhub-portal.vercel.app/"
+		},
     ],
 
     // ============ EDUCATION ============
@@ -34,7 +54,16 @@ const info = {
 
     // ============ EXPERIENCE ============
     experience: [
-        
+        {
+            position: "Intern",
+            company: "Your Company",
+            duration: "Now - Future",
+            image: "you.png",
+            contact: true,
+            descriptions: [
+                
+            ]
+        },
     ],
 
     // ============ CERTIFICATES ============
