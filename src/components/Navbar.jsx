@@ -26,7 +26,7 @@ export default function Navbar() {
             Projects
           </a>
           <a
-            href="#"
+            href="/gallery"
             className="transition-all duration-300 hover:decoration-solid"
           >
             Gallery
@@ -89,7 +89,7 @@ export default function Navbar() {
             </li>
             <li className="underline decoration-dotted">
               <a
-                href="#"
+                href="/gallery"
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >

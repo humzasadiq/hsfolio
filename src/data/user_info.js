@@ -118,12 +118,6 @@ const info = {
                     color: "#659AD2",
                     desc: "",
                 },
-                {
-                    name: "Java",
-                    icon: "Java",
-                    color: "#F7B7B8",
-                    desc: "",
-                },
             ],
         },
 
@@ -132,14 +126,14 @@ const info = {
         {
 			title: "PcPartPicker",
 			description: " A full stack web application for building custom pc builds. [group project]",
-            technologies: "React,Three.js,Express,MongoDB",
+            technologies: "React,Three,Express,MongoDB",
 			github: "https://github.com/humzasadiq/PcPartPicker",
             link: ""
 		},
         {
 			title: "gogol",
 			description: "A Real-time Watch store.",
-            technologies: "React,Three.js,CSS3",
+            technologies: "React,Three,CSS3",
 			github: "https://github.com/humzasadiq/RealTime-GooglePixelWatch",
             link: "https://gogol-watchstore.vercel.app/"
 		},
