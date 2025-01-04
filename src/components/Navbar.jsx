@@ -20,7 +20,7 @@ export default function Navbar() {
             Home
           </Link>
           <a
-            href="#"
+            href="#projects"
             className="transition-all duration-300 hover:decoration-solid"
           >
             Projects
@@ -32,10 +32,10 @@ export default function Navbar() {
             Gallery
           </a>
           <a
-            href="#"
+            href="#about"
             className="transition-all duration-300 hover:decoration-solid"
           >
-            Contact
+            About
           </a>
         </div>
         <div className="lg:hidden">
@@ -80,7 +80,7 @@ export default function Navbar() {
             </li>
             <li className="underline decoration-dotted">
               <a
-                href="#"
+                href="#projects"
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >
@@ -98,11 +98,11 @@ export default function Navbar() {
             </li>
             <li className="underline decoration-dotted">
               <a
-                href="#"
+                href="#about"
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:bg-blak dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >
-                Contact
+                About
               </a>
             </li>
           </ul>

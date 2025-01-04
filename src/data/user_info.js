@@ -23,8 +23,8 @@ const info = {
 			title: "PcPartPicker",
 			description: " A full stack web application for building custom pc builds. [group project]",
             technologies: "React,Three.js,Express,MongoDB",
-			github: "https://github.com/humzasadiq/RealTime-GooglePixelWatch",
-            link: "https://gogol-watchstore.vercel.app/"
+			github: "https://github.com/humzasadiq/PcPartPicker",
+            link: ""
 		},
         {
 			title: "gogol",
@@ -55,7 +55,7 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Intern",
+            position: "",
             company: "Your Company",
             duration: "Now - Future",
             image: "you.png",

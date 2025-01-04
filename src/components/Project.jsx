@@ -55,13 +55,15 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
           <div className="absolute bottom-6">
             <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
               {/* =========== PROJECT LINK =========== */}
-              <div
+              { link &&
+                <div
                 onClick={() => setOpened(true)} // Open the Website component
                 className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
               >
                 <FaExternalLinkAlt className="text-2xl self-center" />
                 <span className="text-xs self-center">View Project</span>
               </div>
+              }
               {/* =========== PROJECT GITHUB =========== */}
               <a
                 href={github}

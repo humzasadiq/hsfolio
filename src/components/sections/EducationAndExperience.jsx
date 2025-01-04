@@ -24,7 +24,7 @@ function EducationAndExperience() {
   }, []);
 
   return (
-    <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
+    <section id="about" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
       <div className="w-full md:w-[80%]">
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaLandmark className="text-xl text-[#8364D8] dark:text-[#8364D8]" />Education
