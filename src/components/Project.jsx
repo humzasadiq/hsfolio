@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { TfiPlus } from "react-icons/tfi";
 import Website from "./Website";
+import { useIsVisible } from "./useIsVisible";
 
 const CardWithBorders = ({ title, description, technologies, link, github }) => {
+  const ref = useRef();
+  const isVisible = useIsVisible(ref, true);
   const [opened, setOpened] = useState(false);
 
   return (
     <>
-    <div className="flex items-center justify-center bg-black w-64 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300">
+      <div
+        ref={ref}
+        className={`flex items-center justify-center bg-black w-64 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-500 delay-200 ${
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        }`}
+      >
       {/* Card Container */}
       <div className="relative w-64 h-80 bg-violet-50 dark:bg-black border border-violet-200 dark:border-gray-700 hover:bg-violet-100 dark:hover:bg-zinc-900">
         {/* "+" Signs in Corners */}

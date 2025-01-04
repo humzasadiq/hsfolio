@@ -17,7 +17,7 @@ export default function Navbar() {
             to="/"
             className="transition-all duration-300 hover:decoration-solid"
           >
-            Home
+            Portfolio
           </Link>
           <a
             href="#projects"
@@ -75,7 +75,7 @@ export default function Navbar() {
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >
-                Home
+                Portfolio
               </Link>
             </li>
             <li className="underline decoration-dotted">

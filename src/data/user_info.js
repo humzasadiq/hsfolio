@@ -2,7 +2,7 @@ const info = {
     // ============ MAIN DETAILS ============
     main: {
         name: "Muhammad Hamza Sadiq",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+        description: "Hi there! I'm a Software Engineer with expertise in full-stack web development. I'm currently pursuing a Bachelor's Degree in Software Engineering, I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Software Engineer",
         photo: "/favicon.png",
         email: "humzasadiq92@gmail.com",
@@ -16,6 +16,116 @@ const info = {
 		instagram: "https://instagram.com/",
 		facebook: "https://facebook.com/",
     },
+
+    // ============ SKILLS ============
+    skills:
+        {
+            tools: [
+                {
+                    name: "React",
+                    icon: "React",
+                    color: "#61DAFB",
+                    desc: "JavaScript library",
+                    current: true,
+                },
+                {
+                    name: "Tailwind CSS",
+                    icon: "Tailwind",
+                    color: "#38BDF8",
+                    desc: "CSS framework",
+                    current: true,
+                },
+                {
+                    name: "NextJS",
+                    icon: "Next",
+                    color: "#ffffff",
+                    desc: "React framework",
+                    current: true,
+                },
+                {
+                    name: "Supabase",
+                    icon: "supabase",
+                    color: "#3ECF8E",
+                    desc: "SQL database",
+                    current: true,
+                },
+                {
+                    name: "ExpressJS",
+                    icon: "Express",
+                    color: "#ffffff",
+                    desc: "Backend framework",
+                    current: false,
+                },
+                {
+                    name: "Git",
+                    icon: "Git",
+                    color: "#FB5030",
+                    desc: "Version control",
+                    current: false,
+                },
+                {
+                    name: "Figma",
+                    icon: "Figma",
+                    color: "#A654F8",
+                    desc: "Version control",
+                    current: false,
+                },
+                {
+                    name: "MongoDB",
+                    icon: "MongoDB",
+                    color: "#439934",
+                    desc: "NoSQL database",
+                    current: false,
+                },
+                {
+                    name: "MySQL",
+                    icon: "MySQL",
+                    color: "#19618A",
+                    desc: "SQL database",
+                    current: false,
+                },
+                {
+                    name: "PostgreSQL",
+                    icon: "PostgresSQL",
+                    color: "#336791",
+                    desc: "SQL database",
+                    current: false,
+                },
+                {
+                    name: "Three.js",
+                    icon: "Three",
+                    color: "#EDE9FE",
+                    desc: "3D component library",
+                    current: false,
+                }, 
+            ],
+            languages: [
+                {
+                    name: "JavaScript",
+                    icon: "JavaScript",
+                    color: "#F0DB4F",
+                    desc: "",
+                },
+                {
+                    name: "Python",
+                    icon: "Python",
+                    color: "#306998",
+                    desc: "",
+                },
+                {
+                    name: "C++",
+                    icon: "Cpp",
+                    color: "#659AD2",
+                    desc: "",
+                },
+                {
+                    name: "Java",
+                    icon: "Java",
+                    color: "#F7B7B8",
+                    desc: "",
+                },
+            ],
+        },
 
     // ============ PROJECTS ============
     projects: [

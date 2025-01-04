@@ -65,8 +65,7 @@ function EducationAndExperience() {
         <div
           data-hs-carousel='{
           "loadingClasses": "opacity-0",
-          "isDraggable": true,
-          "isAutoPlay": true
+          "isDraggable": true
           }'
           className="relative mt-4"
         >
