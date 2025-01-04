@@ -32,7 +32,7 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
             {title}
           </h3>
           {/* =========== PROJECT DESCRIPTION =========== */}
-          <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-xs mt-4">
+          <p className="px-2 mb-4 leading-7 text-zinc-500 dark:text-zinc-300 font-light text-xs mt-4">
             {description}
           </p>
           <div className="gap-2 my-1">
@@ -53,7 +53,7 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
             ))}
           </div>
           <div className="absolute bottom-6">
-            <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
+            <div className="flex gap-3 text-zinc-600 dark:text-zinc-300 font-medium">
               {/* =========== PROJECT LINK =========== */}
               { link &&
                 <div

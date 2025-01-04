@@ -13,6 +13,7 @@
         scrollbar-width: none;  /* Firefox */
   }
 }
+
 @font-face {
     font-family: Against;
     src: url("/fonts/against regular.ttf");
@@ -20,7 +21,7 @@
 
 
 :root {
-    font-family: "Consolas";
+font-family: "Poppins", serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
