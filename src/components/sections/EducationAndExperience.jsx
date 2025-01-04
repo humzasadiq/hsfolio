@@ -186,11 +186,22 @@ function EducationAndExperience() {
                     <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
                       <img className="w-9 rounded-full" src={exp.image} alt="Company Logo" />
                       <div className="leading-5">
-                        {exp.company}
-                        {/* =========== POSITION =========== */}
-                        <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
-                          {exp.position}
-                        </p>
+                      {exp.link ? (
+                        <a 
+                          href={exp.link} 
+                          target="_blank" 
+                          rel="noreferrer" 
+                          className="text-base"
+                        >
+                          {exp.company} <span className="hover:text-[#8364D8] text-xs p-0.5">link<FaExternalLinkAlt className="inline ml-0.5 mb-1 text-xs"/></span>
+                        </a>
+                      ) : (
+                        exp.company
+                      )}
+                      {/* =========== POSITION =========== */}
+                      <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
+                        {exp.position}
+                      </p>
                       </div>
                     </h3>
                     

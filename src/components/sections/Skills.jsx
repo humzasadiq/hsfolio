@@ -1,6 +1,8 @@
 import React from 'react';
 import Skill from '../Skill';
 import user_info from "../../data/user_info.js";
+import { FaCode, FaTools } from "react-icons/fa";
+
 
 export default function Skills({ type, sub }) {
     const skillsList = user_info.skills[sub] || [];
@@ -11,13 +13,13 @@ export default function Skills({ type, sub }) {
                 className="hs-accordion-group"
             >
                 <div className="hs-accordion active -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-zinc-950" id="hs-bordered-heading-one">
-                    <span className=" text-xl hs-accordion-toggle hs-accordion-active:text-[#8364D8] inline-flex items-center gap-x-3 w-full font-semibold text-start text-black py-4 px-5 hover:text-zinc-800 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-[#8364D8] dark:text-white dark:hover:text-violet-300 dark:focus:outline-none dark:focus:text-white" aria-expanded="false" aria-controls="hs-basic-bordered-collapse-one">
-                        <svg className="hs-accordion-active:hidden block size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="m6 9 6 6 6-6"></path>
-                        </svg>
-                        <svg className="hs-accordion-active:block hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="m18 15-6-6-6 6"></path>
-                        </svg>
+                    <span className="text-xl gap-2 cursor-pointer font-bold hs-accordion-toggle hs-accordion-active:text-black inline-flex items-center gap-x-3 w-full text-start text-black py-4 px-5 hover:text-zinc-800 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-white dark:text-white dark:hs-accordion-active:hover:text-violet-300 dark:hover:text-violet-300 dark:focus:outline-none" aria-expanded="false" aria-controls="hs-basic-bordered-collapse-one">
+                        {(sub === "tools") &&
+                            <FaTools className="text-2xl text-[#8364D8] dark:text-[#8364D8]" />
+                        }   
+                        {(sub === "languages") &&
+                            <FaCode className="text-2xl text-[#8364D8] dark:text-[#8364D8]" />
+                        }
                         {type}
                     </span>
                     <div id="hs-basic-bordered-collapse-one" className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-bordered-heading-one">

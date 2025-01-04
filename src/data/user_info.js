@@ -159,13 +159,15 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "",
-            company: "Your Company",
-            duration: "Now - Future",
-            image: "you.png",
-            contact: true,
+            position: "NextJS Backend Developer",
+            link: "https://nexdev.org",
+            company: "Nexus",
+            duration: "October 2024 - Present [part-time]",
+            image: "nexus.png",
+            contact: false,
             descriptions: [
-                
+                "Worked on implementing Password-less Authentication with Google and GitHub Sign-In. Further optimized authentication flow by implementing password reset functionality and bot-protection.",
+                "Currently working part-time with the development team to push the product to MVP stage."
             ]
         },
     ],

@@ -20,22 +20,10 @@ export default function Navbar() {
             Portfolio
           </Link>
           <a
-            href="#projects"
-            className="transition-all duration-300 hover:decoration-solid"
-          >
-            Projects
-          </a>
-          <a
             href="/gallery"
             className="transition-all duration-300 hover:decoration-solid"
           >
             Gallery
-          </a>
-          <a
-            href="#about"
-            className="transition-all duration-300 hover:decoration-solid"
-          >
-            About
           </a>
         </div>
         <div className="lg:hidden">
@@ -80,29 +68,11 @@ export default function Navbar() {
             </li>
             <li className="underline decoration-dotted">
               <a
-                href="#projects"
-                className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
-                onClick={() => setOpened(false)}
-              >
-                Projects
-              </a>
-            </li>
-            <li className="underline decoration-dotted">
-              <a
                 href="/gallery"
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >
                 Gallery
-              </a>
-            </li>
-            <li className="underline decoration-dotted">
-              <a
-                href="#about"
-                className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:bg-blak dark:text-white hover:decoration-solid"
-                onClick={() => setOpened(false)}
-              >
-                About
               </a>
             </li>
           </ul>

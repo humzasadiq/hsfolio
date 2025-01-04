@@ -23,7 +23,7 @@ export default function Gallery() {
     return (
         <div className="xl:w-[1200px] md:mx-auto min-h-screen border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
             <h2 className="heading-myfont text-2xl font-bold text-center py-4 pt-20 text-black dark:text-zinc-100">
-                <span>Photography</span>
+                <span>Gallery</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
                 {photos.map((photo, index) => (
