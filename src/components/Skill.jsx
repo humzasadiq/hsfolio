@@ -8,7 +8,7 @@ const Skill = ({ icon, title, description, color, isActive }) => {
     return (
         <span
             ref={ref}
-            className={`relative inline-flex items-center text-xs font-medium gap-1 sm:gap-2 md:gap-3 m-1 sm:m-1.5 pl-1 sm:pl-2 pr-2 sm:pr-2.5 py-1 sm:py-1.5 rounded-lg shadow-md transition-all duration-300 border border-neutral-200 dark:border-neutral-800
+            className={`relative inline-flex items-center text-xs font-medium gap-1.5 sm:gap-2 md:gap-3 m-1 sm:m-1.5 pl-1 sm:pl-2 pr-2 sm:pr-2.5 py-1 sm:py-1.5 rounded-lg shadow-sm transition-all duration-300 border border-neutral-200 dark:border-neutral-800
                     ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                 }`}
             style={{ backgroundColor: `${color}20` }}
@@ -22,7 +22,7 @@ const Skill = ({ icon, title, description, color, isActive }) => {
 
             <div>
                 <p className="text-xs font-medium text-zinc dark:text-gray-200">{title}</p>
-                <p className="text-xs text-zinc-400 dark:text-gray-400">{description}</p>
+                <p className="text-[0.6rem] sm:text-xs text-zinc-400 dark:text-gray-400">{description}</p>
             </div>
 
             {/* {isActive && (
