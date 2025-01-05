@@ -22,12 +22,12 @@ const Contacts = () => {
             </a>
             </div>
             <a
-            class="group text-xs bg-blue-200/45 hover:bg-blue-300/45 relative rounded text-black duration-500 font-semibold flex justify-start gap-1.5 items-center p-1"
+            class="group text-xs bg-blue-200/45 dark:bg-blue-300/45 hover:bg-blue-300 relative rounded text-black duration-500 font-semibold flex justify-start gap-1.5 items-center p-1"
             href="mail:humzasadiq92@gmail.com"
             target="_blank"
             >
             <img className="w-8 h-8 " src="https://img.icons8.com/color/48/000000/email.png" />
-            <span className="border-l-2 border-x-blue-400 text-zinc-700 px-1">humzasadiq92@gmail.com</span>
+            <span className="border-l-2 border-x-blue-400 text-zinc-700 dark:text-neutral-100 px-2">humzasadiq92@gmail.com</span>
             </a>
 
         </div>
