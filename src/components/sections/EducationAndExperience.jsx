@@ -64,8 +64,7 @@ function EducationAndExperience() {
         </h4>
         <div
           data-hs-carousel='{
-          "loadingClasses": "opacity-0",
-          "isDraggable": true
+          "loadingClasses": "opacity-0"
           }'
           className="relative mt-4"
         >
@@ -101,7 +100,7 @@ function EducationAndExperience() {
           </div>
           <button
             type="button"
-            className="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-s-lg dark:text-white dark:hover:bg-white/10"
+            className="hs-carousel-prev absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-s-lg dark:text-white dark:hover:bg-white/10"
           >
             <span className="text-2xl" aria-hidden="true">
               <svg
@@ -123,7 +122,7 @@ function EducationAndExperience() {
           </button>
           <button
             type="button"
-            className="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-e-lg dark:text-white dark:hover:bg-white/10"
+            className="hs-carousel-next absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-e-lg dark:text-white dark:hover:bg-white/10"
           >
             <span className="sr-only">Next</span>
             <span className="text-2xl" aria-hidden="true">

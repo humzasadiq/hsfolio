@@ -25,6 +25,7 @@ export default function Hero() {
                     <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
                     {user_info.main.description}
                     </p>
+                    
                 </div>
                 </div>
             </div>

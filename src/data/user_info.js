@@ -67,7 +67,7 @@ const info = {
                     name: "Figma",
                     icon: "Figma",
                     color: "#A654F8",
-                    desc: "Version control",
+                    desc: "Graphics Design",
                     current: false,
                 },
                 {
@@ -95,7 +95,7 @@ const info = {
                     name: "Three.js",
                     icon: "Three",
                     color: "#EDE9FE",
-                    desc: "3D component library",
+                    desc: "3D JS library",
                     current: false,
                 }, 
             ],
