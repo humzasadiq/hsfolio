@@ -2,7 +2,7 @@ import user_info from '../../data/user_info';
 import favicon from '/favicon.png';
 export default function Hero() {
     return (
-        <section id="hero" className="pb-10 pt-20 sm:pt-20 md:pt-20 flex px-6 lg:px-24">
+        <section id="hero" className="pt-20 sm:pt-20 md:pt-20 flex px-6 lg:px-24">
             
             <div className="self-center">
                 <div className="hs-tooltip [--placement:right] hs-tooltip-toggle w-20">
