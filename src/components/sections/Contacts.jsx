@@ -1,6 +1,6 @@
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { TfiEmail } from "react-icons/tfi";
+import { TbFileCv } from "react-icons/tb";
 const Contacts = () => {
     return (
         <div className="flex flex-col items-start justify-center gap-4 mt-5 ml-6 md:ml-6 lg:ml-[95px] mb-10">
