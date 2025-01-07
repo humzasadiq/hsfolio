@@ -12,7 +12,7 @@ function Projects() {
     <div className="flex justify-center items-center">
         <section
       
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:px-16"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12 lg:p-2 lg:gap-14"
     >
       {user_info.projects.map((project, index) => {
         return (

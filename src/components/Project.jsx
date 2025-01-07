@@ -13,12 +13,12 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
     <>
       <div
         ref={ref}
-        className={`flex items-center justify-center bg-black w-64 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-500 delay-200 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        className={`flex items-center justify-center bg-black w-96 h-72 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-500 delay-200 ${
+          isVisible ? "opacity-90 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
       {/* Card Container */}
-      <div className="relative w-64 h-80 bg-violet-50 dark:bg-black border border-violet-200 dark:border-gray-700 hover:bg-violet-100 dark:hover:bg-zinc-900">
+      <div className="relative w-96 h-72 bg-violet-50 dark:bg-black border border-violet-200 dark:border-gray-700 hover:bg-violet-100 dark:hover:bg-zinc-900">
         {/* "+" Signs in Corners */}
         <span className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-3 text-violet-500 dark:text-white text-2xl font-thin">
           <TfiPlus />
@@ -47,7 +47,7 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
             {/* =========== TECHNOLOGIES USED =========== */}
             {technologies.split(",").map((tech, index) => (
               <span
-                className="inline-flex items-center gap-x-1.5 py-1 px-2 mx-1 text-xs font-medium text-black dark:text-white bg-violet-100 dark:bg-violet-400/30 rounded-full"
+                className="inline-flex items-center gap-x-1.5 py-1 px-2 mx-1 text-xs font-medium text-black dark:text-white bg-violet-100/80 dark:bg-zinc-400/30 rounded-full"
                 key={index}
               >
                 <img
