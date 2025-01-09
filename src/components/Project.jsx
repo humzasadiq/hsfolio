@@ -13,12 +13,12 @@ const CardWithBorders = ({ title, description, technologies, link, github }) => 
     <>
       <div
         ref={ref}
-        className={`flex items-center justify-center bg-black w-5/6 h-72 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-500 delay-200 ${
+        className={`flex items-center justify-center bg-black w-80 h-72 hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-500 delay-200 ${
           isVisible ? "opacity-90 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
       {/* Card Container */}
-      <div className="relative w-5/6 h-72 bg-violet-50 dark:bg-black border border-violet-200 dark:border-gray-700 hover:bg-violet-100 dark:hover:bg-zinc-900">
+      <div className="relative w-80 h-72 bg-violet-50 dark:bg-black border border-violet-200 dark:border-gray-700 hover:bg-violet-100 dark:hover:bg-zinc-900">
         {/* "+" Signs in Corners */}
         <span className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-3 text-violet-500 dark:text-white text-2xl font-thin">
           <TfiPlus />
