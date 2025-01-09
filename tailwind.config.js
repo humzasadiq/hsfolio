@@ -4,7 +4,7 @@ export default {
   darkMode: "class",
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
     "./node_modules/preline/preline.js",
   ],
   theme: {

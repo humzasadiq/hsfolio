@@ -50,8 +50,8 @@ export default function Navbar() {
 
       {/* Overlay */}
       <div
-        className={`fixed inset-0 bg-black/50 z-[59] transition-opacity duration-300 lg:hidden ${
-            opened ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        className={`fixed inset-0 bg-black/30 z-[59] transition-opacity duration-300 lg:hidden ${
+            opened ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none display-none"
         }`}
         onClick={() => setOpened(false)}
         >
