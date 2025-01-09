@@ -1,5 +1,6 @@
 import user_info from '../../data/user_info';
 import favicon from '/favicon.png';
+import pakflag from '/flag-pakistan.svg';
 export default function Hero() {
     return (
         <section id="hero" className="pt-20 sm:pt-20 md:pt-20 flex px-6 lg:px-24">
@@ -23,7 +24,13 @@ export default function Hero() {
                     </h1>
 
                     <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
+                    {user_info.main.sub_description} <span><img src="/flag-pakistan.svg" alt="Pakistan" className="inline mx-1 w-6 h-6"/></span>
+                    </p>
+                    <p className="dark:text-zinc-300 text-sm font-light lg:w-[87%]">
                     {user_info.main.description}
+                    </p>
+                    <p className="dark:text-zinc-300 text-sm font-light lg:w-[87%]">
+                    {user_info.main.description2}
                     </p>
                     
                 </div>

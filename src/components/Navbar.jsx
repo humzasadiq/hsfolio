@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="h-[8vh] fixed top-0 left-0 w-full z-50">
-      <div className="flex justify-between items-center px-6 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-50 dark:border-black bg-zinc-50/70 dark:bg-zinc-950/70 backdrop-blur">
+      <div className="flex justify-between items-center px-6 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-50 dark:border-black bg-[#F0F0F0]/50 dark:bg-zinc-950/70 backdrop-blur">
         <div className="heading-myfont text-[16px] gap-4 mx-auto text-black dark:text-zinc-100 hidden lg:flex underline decoration-dotted decortion-thick">
           <Link
             to="/"
@@ -55,7 +55,7 @@ export default function Navbar() {
         }`}
         onClick={() => setOpened(false)}
         >
-        <nav className="heading-myfont hs-accordion-group p-6 w-full flex flex-col flex-wrap justify-center items-center h-full bg-zinc-50 dark:bg-zinc-950">
+        <nav className="heading-myfont hs-accordion-group p-6 w-full flex flex-col flex-wrap justify-center items-center h-full bg-[#F0F0F0] dark:bg-zinc-950">
             <div 
             className="text-[30px] text-black dark:text-white cursor-pointer absolute top-4 left-6"
             onClick={() => setOpened(false)}

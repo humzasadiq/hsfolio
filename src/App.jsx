@@ -26,7 +26,7 @@ function App() {
 	return (
 		<AppContext.Provider value={{ theme, switchTheme }}>
         <BrowserRouter>
-        <div className="bg-zinc-100 dark:bg-zinc-900">
+        <div className="bg-neutral-200 dark:bg-zinc-900">
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

@@ -2,7 +2,9 @@ const info = {
     // ============ MAIN DETAILS ============
     main: {
         name: "Muhammad Hamza Sadiq",
-        description: "Hi there! I'm a Software Engineer with expertise in full-stack web development. I'm currently pursuing a Bachelor's Degree in Software Engineering, I am passionate about creating high-quality code that follows best practices and industry standards.",
+        sub_description: "I'm a Software Engineer Student from Pakistan. ",
+        description: "I'm currently pursuing a Bachelor's Degree in Software Engineering.",
+        description2: "I've been programming for 3 years in multiple different languages, learning principles from each one, and designing & developing applications for the past 2 years.",
         role: "Software Engineer",
         photo: "/favicon.png",
         email: "humzasadiq92@gmail.com",
