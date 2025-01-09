@@ -19,12 +19,12 @@ export default function Navbar() {
           >
             Portfolio
           </Link>
-          <a
-            href="/gallery"
+          <Link
+            to="/gallery"
             className="transition-all duration-300 hover:decoration-solid"
           >
             Gallery
-          </a>
+          </Link>
           <a
             href="https://drive.google.com/file/d/1IrDYMrxKeeSfb17pX6ttNjJQlggyb3iy/view?usp=sharing"
             className="transition-all duration-300 hover:decoration-solid"
@@ -73,13 +73,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="underline decoration-dotted">
-              <a
-                href="/gallery"
+              <Link
+                to="/gallery"
                 className="flex items-center gap-x-3.5 py-2 px-2.5 transition-all duration-300 rounded-lg dark:text-white hover:decoration-solid"
                 onClick={() => setOpened(false)}
               >
                 Gallery
-              </a>
+              </Link>
               
             </li>
             <li className="underline decoration-dotted">
