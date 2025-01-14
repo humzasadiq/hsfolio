@@ -37,13 +37,13 @@ const info = {
                     desc: "CSS framework",
                     current: true,
                 },
-                {
-                    name: "NextJS",
-                    icon: "Next",
-                    color: "#ffffff",
-                    desc: "React framework",
-                    current: true,
-                },
+                // {
+                //     name: "NextJS",
+                //     icon: "Next",
+                //     color: "#ffffff",
+                //     desc: "React framework",
+                //     current: true,
+                // },
                 {
                     name: "Supabase",
                     icon: "supabase",
