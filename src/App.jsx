@@ -11,7 +11,7 @@ export const AppContext = createContext();
 
 function App() {
 	const savedTheme = localStorage.getItem("theme");
-    const [theme, setTheme] = useState(savedTheme || "dark");
+  const [theme, setTheme] = useState(savedTheme || "dark");
 
 	useEffect(() => {
         document.documentElement.classList.toggle("dark", theme === "dark");
@@ -26,7 +26,7 @@ function App() {
 	return (
 		<AppContext.Provider value={{ theme, switchTheme }}>
         <BrowserRouter>
-        <div className="bg-neutral-200 dark:bg-zinc-900">
+        <div className="bg-[#FBFAF8] dark:bg-zinc-900">
         <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
