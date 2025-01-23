@@ -31,7 +31,7 @@ function EducationAndExperience() {
         </h4>
         {user_info.education.map((edu, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="bg-[#F3F4F6] p-2 dark:bg-[#171717] rounded-md">
               <div className="ps-2 my-2 first:mt-0 !mt-2">
                 <h3 className="text-xs font-medium uppercase text-zinc-500 dark:text-zinc-400">
                   {edu.duration}
@@ -156,15 +156,13 @@ function EducationAndExperience() {
           </div>
         </div>
       </div>
-      {/* =========== EXPERIENCE =========== */}
-      <div className="w-full">
-        {/* =========== EXPERIENCE TITLE =========== */}
+      <div className="w-full mx-2">
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaBuildingUser className="text-2xl text-[#8364D8] dark:text-[#8364D8]" />
           Experience
         </h4>
 
-        <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth no-scrollbar overflow-y-scroll">
+        <div className="md:h-[405px] md:overflow-y-scroll scroll-smooth no-scrollbar overflow-y-scroll bg-[#F3F4F6] p-2 dark:bg-[#171717] rounded-md">
           {/* =========== EXPERIENCE LIST =========== */}
           {user_info.experience.map((exp, index) => {
             return (

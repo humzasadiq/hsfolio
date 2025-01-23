@@ -1,7 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 const Contacts = () => {
     return (
-        <div className="flex flex-row items-start justify-start gap-4 mt-5 ml-6 md:ml-6 lg:ml-[95px] mb-10 ">
+        <div className="flex flex-row items-start justify-start gap-4 mt-5 ">
             <a
             class="inline-flex text-sm sm:text-base font-semibold text-[#1E1E1E] dark:text-[#F1F1F1]  hover:decoration-solid underline decoration-dotted underline-offset-4 transition-all duration-300" 
             href="https://github.com/humzasadiq"

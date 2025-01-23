@@ -142,7 +142,7 @@ const info = {
         {
 			title: "Careerhub",
 			description: "A Job search engine that aggregates job listings from multiple platforms. ",
-            technologies: "React,Tailwind,Express,CSS3",
+            technologies: "React,Express,CSS3",
 			github: "https://github.com/humzasadiq/CareerHub-JobSearchEngine",
             link: "https://careerhub-portal.vercel.app/"
 		},
