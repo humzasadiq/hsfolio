@@ -264,8 +264,8 @@ const Neko = () => {
 
       function frame() {
         frameCount += 1;
-        targetX = window.innerWidth * 0.15;
-        targetY = 12;
+        targetX = window.innerWidth * 0.17;
+        // targetY = 12;
         let diffX, diffY;
         if (isCatFixed) {
           diffX = nekoPosX - targetX;
@@ -276,11 +276,15 @@ const Neko = () => {
         }
         const distance = Math.sqrt(diffX ** 2 + diffY ** 2);
 
-        if (distance < nekoSpeed) {
+        if (distance < nekoSpeed && isCatFixed) {
           nekoPosX = targetX;
           nekoPosY = targetY;
           nekoEl.style.left = `${nekoPosX - 16}px`;
           nekoEl.style.top = `${nekoPosY - 16}px`;
+          idle();
+          return;
+        }
+        if (distance < nekoSpeed) {
           idle();
           return;
         }
