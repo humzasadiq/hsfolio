@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className="h-[8vh] fixed top-0 left-0 w-full z-50">
-      <div className="flex justify-between items-center px-6 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-50 dark:border-black bg-[#FBFAF8]/50 dark:bg-zinc-950/70 backdrop-blur">
+      <div className="flex justify-between items-center px-6 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-50 dark:border-black bg-[#FBFAF8]/50 dark:bg-zinc-950/70 backdrop-blur shadow-sm dark:shadow-white/10">
         <div className="heading-myfont text-[16px] gap-4 mx-auto text-black dark:text-zinc-100 hidden lg:flex underline decoration-dotted decortion-thick">
           <Link
             to="/"

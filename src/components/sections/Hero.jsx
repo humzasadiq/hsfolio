@@ -3,7 +3,7 @@ import favicon from '/favicon.png';
 import Contacts from './Contacts';
 export default function Hero() {
     return (
-        <section id="hero" className="pt-20 sm:pt-20 md:pt-20 flex px-6 lg:px-16 mb-10 lg:mb-0 items-center justify-center">
+        <section id="hero" className="pt-20 sm:pt-20 md:pt-20 flex px-6 lg:px-16 mb-10 lg:mb-10 items-center justify-center">
             
             <div className="self-center rounded-lg border border-zinc-300 dark:border-zinc-800 bg-[#eae8e5] dark:bg-zinc-900 p-6">
                 <div className="hs-tooltip [--placement:right] hs-tooltip-toggle w-20">

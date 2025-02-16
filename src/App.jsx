@@ -6,6 +6,7 @@ import Gallery from './pages/Gallery';
 import Navbar from './components/Navbar';
 import NotFound from './pages/404'
 import "preline/preline";
+import Neko from './services/neko';
 
 export const AppContext = createContext();
 
@@ -23,8 +24,11 @@ function App() {
         setTheme(theme === "dark" ? "light" : "dark");
     };
 
+    
+
 	return (
 		<AppContext.Provider value={{ theme, switchTheme }}>
+      <Neko />
         <BrowserRouter>
         <div className="bg-[#eae8e5] dark:bg-zinc-900">
         <Navbar />

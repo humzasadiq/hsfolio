@@ -8,9 +8,14 @@ function Footer({ theme }) {
       behavior: "smooth",
     });
   };
+  
+  
 
   return (
-    <footer className="p-4 text-center md:flex justify-between">
+    <>
+    <footer className="p-4 text-center justify-center items-center flex flex-col gap-2 text-zinc-600 dark:text-zinc-300 text-sm font-light"
+    
+    >
       {/* =========== USER COPYRIGHT =========== */}
       <p className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 text-sm text-center font-light">
         {user_info.footer}
@@ -22,7 +27,10 @@ function Footer({ theme }) {
       >
         <FaArrowCircleUp className="self-center text-[#8364D8] dark:text-[#8364D8]" /> Go back to top
       </button>
+      
     </footer>
+    <div className="h-[50px] md:h-[150px]"></div>
+    </>
   );
 }
 

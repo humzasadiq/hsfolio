@@ -12,7 +12,7 @@ export default function Skills({ type, sub }) {
             <div 
                 className="hs-accordion-group"
             >
-                <div className="hs-accordion active -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-zinc-950" id="hs-bordered-heading-one">
+                <div className="hs-accordion active -mt-px first:rounded-t-lg last:rounded-b-lg" id="hs-bordered-heading-one">
                     <span className="text-xl gap-2 cursor-pointer font-bold hs-accordion-toggle hs-accordion-active:text-black inline-flex items-center gap-x-3 w-full text-start text-black py-4 px-5 hover:text-zinc-800 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-white dark:text-white dark:hs-accordion-active:hover:text-violet-300 dark:hover:text-violet-300 dark:focus:outline-none" aria-expanded="false" aria-controls="hs-basic-bordered-collapse-one">
                         {(sub === "tools") &&
                             <FaTools className="text-2xl text-[#8364D8] dark:text-[#8364D8]" />
