@@ -13,7 +13,7 @@ function Home() {
   const { theme, switchTheme } = useContext(AppContext);
   const footerStyle = {
     backgroundImage: "url('/fotter.gif')",
-    backgroundSize: "contain",
+    // backgroundSize: "contain",
 
 
     
@@ -23,7 +23,7 @@ function Home() {
   };
     return (
         // <div className="bg-zinc-100 dark:bg-zinc-900">
-      <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-[#FBFAF8] dark:bg-zinc-950"
+      <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-[#FBFAF8] dark:bg-zinc-950 bg-[auto_300px] sm:bg-contain"
       style={footerStyle}
       >
 
