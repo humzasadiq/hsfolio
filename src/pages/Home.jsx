@@ -23,7 +23,7 @@ function Home() {
   };
     return (
         // <div className="bg-zinc-100 dark:bg-zinc-900">
-      <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-[#FBFAF8] dark:bg-zinc-950 bg-[auto_300px] sm:bg-contain"
+      <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-[#FBFAF8] dark:bg-zinc-950 bg-[auto_500px] sm:bg-contain"
       style={footerStyle}
       >
 

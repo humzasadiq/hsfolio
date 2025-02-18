@@ -29,7 +29,7 @@ function Footer({ theme }) {
       </button>
       
     </footer>
-    <div className="h-[70px] md:h-[150px]"></div>
+    <div className="h-[150px] md:h-[150px]"></div>
     </>
   );
 }
