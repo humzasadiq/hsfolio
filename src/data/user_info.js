@@ -162,7 +162,7 @@ const info = {
     experience: [
         {
             position: "NextJS Backend Developer",
-            link: "https://nexdev.org",
+            link: "https://www.colliseam.com/",
             company: "Nexus",
             duration: "October 2024 - Present [part-time]",
             image: "nexus.png",
