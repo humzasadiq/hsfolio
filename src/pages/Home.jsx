@@ -12,7 +12,7 @@ import Contacts from "../components/sections/Contacts";
 function Home() {
   const { theme, switchTheme } = useContext(AppContext);
   const footerStyle = {
-    backgroundImage: "url('/fotter.gif')",
+    backgroundImage: theme === "dark" ? "url(/footer-dark.gif)" : "url(/fotter.gif)",
     // backgroundSize: "contain",
 
 
