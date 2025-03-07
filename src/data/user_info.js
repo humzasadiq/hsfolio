@@ -130,21 +130,28 @@ const info = {
 			description: " A full stack web application for building custom pc builds. [group project]",
             technologies: "React,Three,Express,MongoDB",
 			github: "https://github.com/humzasadiq/PcPartPicker",
-            link: ""
+            link: "",
+            date: "October",
+            year: "2024"
+
 		},
         {
 			title: "gogol",
 			description: "A Real-time Watch store.",
             technologies: "React,Three,CSS3",
 			github: "https://github.com/humzasadiq/RealTime-GooglePixelWatch",
-            link: "https://gogol-watchstore.vercel.app/"
+            link: "https://gogol-watchstore.vercel.app/",
+            date: "August",
+            year: "2024"
 		},
         {
 			title: "Careerhub",
 			description: "A Job search engine that aggregates job listings from multiple platforms. ",
             technologies: "React,Express,CSS3",
 			github: "https://github.com/humzasadiq/CareerHub-JobSearchEngine",
-            link: "https://careerhub-portal.vercel.app/"
+            link: "https://careerhub-portal.vercel.app/",
+            date: "June",
+            year: "2024"
 		},
     ],
 

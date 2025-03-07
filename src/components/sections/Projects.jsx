@@ -9,10 +9,10 @@ function Projects() {
     <FaCircle className="text-2xl text-black dark:text-white" />
         Projects
     </h4>
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center w-full">
         <section
       
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:p-2 lg:gap-14"
+      className="grid grid-cols-1 gap-8 md:gap-12 lg:p-2 lg:gap-14 w-full pl-6 md:pl-8 lg:pl-8 2xl:pl-10 xl:pl-16 max-w-screen-xl"
     >
       {user_info.projects.map((project, index) => {
         return (
@@ -23,6 +23,8 @@ function Projects() {
             technologies={project.technologies}
             github={project.github}
             link={project.link}
+            date={project.date}
+            year={project.year}
           />
         );
       })}
