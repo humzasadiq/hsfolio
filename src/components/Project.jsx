@@ -31,58 +31,59 @@ const CardWithBorders = ({ title, description, technologies, link, github, date,
 
         
         <div className="p-4 transition-all duration-500 delay-200 flex justify-between">
-          <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-2">
-            {title}
-          </h3>
-          <p className="px-1 mb-2 text-zinc-500 dark:text-zinc-300 font-light text-xs mt-2">
-            {description}
-          </p>
-          <div 
-            className="gap-2 my-1 transition-all duration-500 delay-200 flex overflow-x-auto"
-            style={{ msOverflowStyle: "none", scrollbarWidth: "none" }}
-          >
-            {technologies.split(",").map((tech, index) => (
-              <span
-                className="inline-flex flex-none items-center gap-x-1.5 p-1 mx-1 text-xs font-light text-black dark:text-white bg-gray-200/80 dark:bg-zinc-500/30 hover:bg-white/30 dark:hover:bg-zinc-400/30 rounded-lg cursor-pointer border border-slate-200 dark:border-zinc-800"
-                key={index}
-              >
-                <img
-                  src={`/tech/${tech}.svg`}
-                  alt={tech}
-                  className="w-5 h-5"
-                  aria-hidden="true"
-                />
-                {tech}
-              </span>
-            ))}
-          </div>
-          <div className="absolute bottom-6">
-            <div className="flex gap-3 text-zinc-600 dark:text-zinc-300 font-medium">
-              { link &&
+          <div className="flex flex-col gap-2 flex-1 min-w-0">
+            <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-2">
+              {title}
+            </h3>
+            <p className="px-1 mb-2 text-zinc-500 dark:text-zinc-300 font-light text-xs mt-2">
+              {description}
+            </p>
+            <div 
+              className="gap-2 my-1 transition-all duration-500 delay-200 flex overflow-x-auto"
+              style={{ msOverflowStyle: "none", scrollbarWidth: "none" }}
+            >
+              {technologies.split(",").map((tech, index) => (
+                <span
+                  className="inline-flex flex-none items-center gap-x-1.5 p-1 mx-1 text-xs font-light text-black dark:text-white bg-gray-200/80 dark:bg-zinc-500/30 hover:bg-white/30 dark:hover:bg-zinc-400/30 rounded-lg cursor-pointer border border-slate-200 dark:border-zinc-800"
+                  key={index}
+                >
+                  <img
+                    src={`/tech/${tech}.svg`}
+                    alt={tech}
+                    className="w-5 h-5"
+                    aria-hidden="true"
+                  />
+                  {tech}
+                </span>
+              ))}
+            </div>
+            
+            <div className="absolute bottom-6">
+              <div className="flex gap-3 text-zinc-600 dark:text-zinc-300 font-medium">
+                { link &&
+                  <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
+                >
+                  <FaExternalLinkAlt className="text-2xl self-center" />
+                  <span className="text-xs self-center">View Project</span>
+                </a>
+                }
                 <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
-              >
-                <FaExternalLinkAlt className="text-2xl self-center" />
-                <span className="text-xs self-center">View Project</span>
-              </a>
-              }
-              <a
-                href={github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
-              >
-                <FaGithub className="text-2xl self-center" />
-                <span className="text-xs self-center">Repository</span> 
-              </a>
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
+                >
+                  <FaGithub className="text-2xl self-center" />
+                  <span className="text-xs self-center">Repository</span> 
+                </a>
+              </div>
             </div>
           </div>
-          </div>
-          <div className="flex justify-center items-start sm:items-center">
+          <div className="flex items-start pl-4">
             <p className="text-sm text-right text-zinc-500 dark:text-zinc-300">
               {date} <hr /> {year}
             </p>
