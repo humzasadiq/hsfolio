@@ -1,6 +1,7 @@
 name: Deploy React + Vite to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -29,4 +30,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          
