@@ -7,7 +7,8 @@ import Navbar from './components/Navbar';
 import NotFound from './pages/404'
 import "preline/preline";
 import Neko from './services/neko';
-
+import BlogPost from './pages/BlogPost';
+import Blogs from './pages/Blogs';
 export const AppContext = createContext();
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogPost />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

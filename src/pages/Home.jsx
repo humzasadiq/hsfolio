@@ -8,7 +8,6 @@ import EducationAndExperience from "../components/sections/EducationAndExperienc
 import Projects from "../components/sections/Projects";
 import Website from "../components/Website";
 import Contacts from "../components/sections/Contacts";
-
 function Home() {
   const { theme, switchTheme } = useContext(AppContext);
   const footerStyle = {
@@ -26,7 +25,6 @@ function Home() {
       <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-[#FBFAF8] dark:bg-zinc-950 bg-[auto_500px] sm:bg-contain"
       style={footerStyle}
       >
-
         <Hero/>
         <Projects/>
         <Website/>
