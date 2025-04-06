@@ -15,8 +15,8 @@ const CardWithBorders = ({ title, description, technologies, link, github, date,
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-      <div className="relative w-[100%] h-56 bg-F3F4F6 dark:bg-black rounded-md border border-blue-200 dark:border-gray-700">
-        <span className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-3 text-blue-300 dark:text-neutral-400 text-2xl font-thin">
+      <div className="relative w-[100%] h-56 bg-F3F4F6 dark:bg-black rounded-xl border border-blue-200 dark:border-gray-700">
+        {/* <span className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-3 text-blue-300 dark:text-neutral-400 text-2xl font-thin">
           <TfiPlus />
         </span>
         <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-3 text-blue-300 dark:text-neutral-400 text-2xl font-thin">
@@ -27,7 +27,7 @@ const CardWithBorders = ({ title, description, technologies, link, github, date,
         </span>
         <span className="absolute bottom-0 right-0 transform translate-x-1/2 translate-y-3 text-blue-300 dark:text-neutral-400 text-2xl font-thin">
           <TfiPlus />
-        </span>
+        </span> */}
 
         
         <div className="p-4 transition-all duration-500 delay-200 flex justify-between">
@@ -68,7 +68,7 @@ const CardWithBorders = ({ title, description, technologies, link, github, date,
                   className="flex gap-2 mt-4 hover:text-[#8364D8] hover:dark:text-[#8364D8] cursor-pointer transition-all duration-300"
                 >
                   <FaExternalLinkAlt className="text-2xl self-center" />
-                  <span className="text-xs self-center">View Project</span>
+                  <span className="text-xs self-center">Live Link</span>
                 </a>
                 }
                 <a

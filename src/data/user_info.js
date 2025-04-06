@@ -126,6 +126,16 @@ const info = {
     // ============ PROJECTS ============
     projects: [
         {
+			title: "vocalog",
+			description: "AI powered tool to record and create meeting minutes and more.",
+            technologies: "Flutter",
+			github: "https://github.com/humzasadiq/vocalog",
+            link: "https://vocalog.vercel.app/",
+            date: "February",
+            year: "2025"
+
+		},
+        {
 			title: "PcPartPicker",
 			description: " A full stack web application for building custom pc builds. [group project]",
             technologies: "React,Three,Express,MongoDB",
