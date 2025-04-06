@@ -31,6 +31,13 @@ const info = {
                     current: true,
                 },
                 {
+                    name: "Flutter",
+                    icon: "Flutter",
+                    color: "#3FB6D3",
+                    desc: "Mobile App development",
+                    current: true,
+                },
+                {
                     name: "Tailwind CSS",
                     icon: "Tailwind",
                     color: "#38BDF8",
