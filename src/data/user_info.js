@@ -185,14 +185,15 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "NextJS Backend Developer",
+            position: "NextJS Developer",
             link: "https://www.colliseam.com/",
-            company: "Nexus",
+            company: "colliseam",
             duration: "October 2024 - Present [part-time]",
             image: "nexus.png",
             contact: false,
             descriptions: [
                 "Worked on implementing Password-less Authentication with Google and GitHub Sign-In. Further optimized authentication flow by implementing password reset functionality and bot-protection.",
+                "Implemented SQL side rate limiting.",
                 "Currently working part-time with the development team to push the product to MVP stage."
             ]
         },
@@ -201,18 +202,17 @@ const info = {
     // ============ CERTIFICATES ============
     certificates: [
         {
-            title: "Programming with JavaScript",
-            description: "Provided by Coursera & Authorized by Meta",
-            icon: "meta",
-            link: "https://www.coursera.org/account/accomplishments/verify/N9S2LAZD2UPG",
-        },
-        {
             title: "Full Stack Open",
             description: "Provided by University of Helsinki",
             icon: "fso",
             link: "https://fullstackopen.com/en/",
         },
-        
+        {
+            title: "Programming with JavaScript",
+            description: "Provided by Coursera & Authorized by Meta",
+            icon: "meta",
+            link: "https://www.coursera.org/account/accomplishments/verify/N9S2LAZD2UPG",
+        },
     ],
 
     // ============ CONTACT ============
